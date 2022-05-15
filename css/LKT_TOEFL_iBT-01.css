@@ -1,0 +1,46 @@
+@charset "utf-8";
+.lecturer-01  {
+    width: 170px;
+    height: 129px;
+    margin-left: 24px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+}
+#accordion1 .panel.panel-default> .panel-heading {
+    background-color: #090;
+    background-image: -webkit-linear-gradient(90deg,rgba(0,204,0,1.00) 0%,rgba(0,102,0,1.00) 100%);
+    background-image: -moz-linear-gradient(90deg,rgba(0,204,0,1.00) 0%,rgba(0,102,0,1.00) 100%);
+    background-image: -o-linear-gradient(90deg,rgba(0,204,0,1.00) 0%,rgba(0,102,0,1.00) 100%);
+    background-image: linear-gradient(0deg,rgba(0,204,0,1.00) 0%,rgba(0,102,0,1.00) 100%);
+    color: #FFC;
+}
+
+#accordion1 .panel.panel-default> .panel-heading:hover {
+    background-color: #090;
+    background-image: -webkit-linear-gradient(90deg,rgba(0,102,0,1.00) 0%,rgba(0,204,0,1.00) 100%);
+    background-image: -moz-linear-gradient(90deg,rgba(0,102,0,1.00) 0%,rgba(0,204,0,1.00) 100%);
+    background-image: -o-linear-gradient(90deg,rgba(0,102,0,1.00) 0%,rgba(0,204,0,1.00) 100%);
+    background-image: linear-gradient(0deg,rgba(0,102,0,1.00) 0%,rgba(0,204,0,1.00) 100%);
+    color: white;
+    font-weight: bolder;
+}
+
+.panel-body {
+    background-color: #CFC;
+}
+
+.lecturer #accordion1 {
+    border: solid 1px #060;
+    border-radius: 5px;
+}
+footer p {
+    margin-top: 12px;
+    text-align: center;
+}
+main.row .sidebar1 {
+    padding-left: 0px;
+}
+main.row .sidebar1 #collapseOne1 .panel-body {
+    padding-left: 0px;
+    margin-left: 0px;
+}
